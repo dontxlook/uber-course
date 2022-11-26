@@ -1,7 +1,7 @@
 # Учебный проект UBER
 
 ## Файлы и папки:
-* [.editorconfig](https://editorconfig.org/)
+* [.editorconfig](https://editorconfig.org/)<br>
 Файл с настройками для редактора. VS Code предложит установить расширение.
 
 * .vscode/extensions.json
