@@ -1,0 +1,28 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+
+  --c-white: #ffffff;
+
+  --c-text-light: var(--c-white);
+  --c-text-dark: #222222;
+
+  --c-bg-light: var(--c-white);
+  --c-bg-dark: #070716;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: var(--c-text-light);
+
+    background-color: var(--c-bg-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--c-text-dark);
+
+    background-color: var(--c-bg-light);
+  }
+}
+
