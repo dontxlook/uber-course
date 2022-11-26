@@ -2,23 +2,23 @@
 
 ## Файлы и папки:
 
-#### [.editorconfig](https://editorconfig.org/)
+#### 1. [.editorconfig](https://editorconfig.org/)
 
 Файл с настройками для редактора. VS Code предложит установить расширение.
 
-#### .vscode/extensions.json<br>
+#### 2. .vscode/extensions.json
 
 Порекомендует установить editorconfig для VS Code.
 
-#### [.gitignore](https://git-scm.com/docs/gitignore)
+#### 3. [.gitignore](https://git-scm.com/docs/gitignore)
 
 Список файлов и расширений, которые Git должен игнорировать.
 
-#### css/common и css/blocks
+#### 4. css/common и css/blocks
 
 Файлы с общими стилями и стилями для блоков.
 Подключаются с помощью @import в style.css.
 
-#### script/js
+#### 5. script/js
 
 Выведет приветственное сообщение в консоль.
